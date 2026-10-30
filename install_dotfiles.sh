@@ -2,7 +2,7 @@
 set -euo pipefail
 
 REPO="https://github.com/$USER/dotfiles.git"
-config() { git --git-dir="$HOME/.cfg" --work-tree="$HOME" "$@"; }
+dots() { git --git-dir="$HOME/.dots" --work-tree="$HOME" "$@"; }
 
 # 1. Homebrew (also installs Xcode CLT, which provides git)
 if ! command -v brew >/dev/null; then
