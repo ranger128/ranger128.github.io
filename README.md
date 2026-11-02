@@ -1,1 +1,1 @@
-# ranger128.github.io
+`curl -fsSL ranger128.github.io/<FILE>`
